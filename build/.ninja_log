@@ -1,9 +1,4 @@
-# ninja log v6
-21	4820	7420770379367915	CMakeFiles/game_client.dir/src/main.cpp.obj	549c8580da2e41ec
-4820	5077	7420770427354901	game_client.exe	3557ad888ce40ac6
-4	4426	7425111150449812	CMakeFiles/game_client.dir/src/main.cpp.obj	549c8580da2e41ec
-4427	4771	7425111194674294	game_client.exe	3557ad888ce40ac6
-27	4469	7425111895770518	CMakeFiles/game_client.dir/src/main.cpp.obj	549c8580da2e41ec
-4470	4678	7425111940208345	game_client.exe	3557ad888ce40ac6
-23	4477	7425112170512470	CMakeFiles/game_client.dir/src/main.cpp.obj	549c8580da2e41ec
-4478	4681	7425112215054594	game_client.exe	3557ad888ce40ac6
+# ninja log v5
+3	2075	1720896541881976904	CMakeFiles/game_client.dir/src/main.cpp.o	1c740aba2b3f4f64
+2948	3092	1720896542901976892	game_client	770f3b8481eecd87
+3	2948	1720896542751976893	CMakeFiles/game_client.dir/src/client/client.cpp.o	8f5f6123043ad26
