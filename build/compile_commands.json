@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -I\"C:/Users/MON PC/Desktop/game client/include\" -g -Wall -Wextra -o CMakeFiles\\game_client.dir\\src\\main.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\main.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\main.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\main.cpp.obj"
+}
+]

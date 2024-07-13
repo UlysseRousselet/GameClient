@@ -1,0 +1,3 @@
+C:/Users/MON PC/Desktop/game client/build/CMakeFiles/game_client.dir
+C:/Users/MON PC/Desktop/game client/build/CMakeFiles/edit_cache.dir
+C:/Users/MON PC/Desktop/game client/build/CMakeFiles/rebuild_cache.dir
