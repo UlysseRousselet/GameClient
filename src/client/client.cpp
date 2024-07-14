@@ -12,10 +12,21 @@ Client::Client(std::string ip, std::string port) : _io_context(), _resolver(_io_
     _socket.open(asio::ip::udp::v4());
 }
 
+Client::~Client()
+{
+    send_packet({2, {1.0, 2.0, 3.0, 4.0, 5.0}});
+    _socket.close();
+}
+
+void Client::send_packet(Packet packet)
+{
+    _socket.send_to(asio::buffer(&packet, sizeof(Packet)), _server_endpoint);
+}
+
 void Client::loop()
 {
-    std::array<float, 5> send_buf = {1.0, 2.0, 3.0, 4.0, 5.0};
-    _socket.send_to(asio::buffer(send_buf), _server_endpoint);
+    send_packet({1, {1.0, 2.0, 3.0, 4.0, 5.0}});
+
     while (true)
     {
         char recv_buf[2000];

@@ -20,9 +20,9 @@ class Client
 {
     public:
         Client(std::string ip, std::string port);
-        ~Client() = default;
+        ~Client();
         void loop();
-        
+        void send_packet(Packet packet);
     private:
         asio::io_context _io_context;
         asio::ip::udp::resolver _resolver;

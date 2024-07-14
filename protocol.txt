@@ -1,0 +1,6 @@
+Client -> Server
+
+1 -> Connection
+2 -> Disconnection
+
+Server -> Client
