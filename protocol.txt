@@ -4,3 +4,7 @@ Client -> Server
 2 -> Disconnection
 
 Server -> Client
+
+1 -> Connected
+2 id -> Connexion of a player on the scene
+3 id -> Disconnexion of a player on the scene
