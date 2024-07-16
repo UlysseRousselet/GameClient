@@ -9,3 +9,5 @@ file(GLOB HEADERS "include/*.hpp" "include/asio/*.hpp" "include/graphic/*.hpp")
 add_executable(game_client ${SOURCES} ${HEADERS})
 
 target_compile_options(game_client PRIVATE -Wall -Wextra)
+
+target_link_libraries(${PROJECT_NAME} raylib)

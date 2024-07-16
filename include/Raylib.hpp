@@ -11,6 +11,7 @@
     #include "Asio.hpp"
     #include "GameData.hpp"
     #include "Window.hpp"
+    #include "Camera.hpp"
     #include <raylib.h>
 
 class Raylib {
@@ -23,6 +24,7 @@ class Raylib {
         std::shared_ptr<Asio> asio;
         std::shared_ptr<GameData> gameData;
         Window window;
+        RenderCamera camera;
 };
 
 #endif /* !RAYLIB_HPP_ */

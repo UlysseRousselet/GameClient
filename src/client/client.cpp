@@ -13,7 +13,7 @@ Client::Client(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData) :
     asio->send_packet({1, {1.0, 2.0, 3.0, 4.0, 5.0}});
 
     std::thread loop_thread(&Client::loop, this);
-    loop_thread.join();
+    loop_thread.detach();
 }
 
 Client::~Client()

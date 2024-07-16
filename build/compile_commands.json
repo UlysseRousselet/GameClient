@@ -37,6 +37,12 @@
 },
 {
   "directory": "/home/Ulysse/Projet Perso/GameClient/build",
+  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/raylib/camera.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/camera.cpp\"",
+  "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/camera.cpp",
+  "output": "CMakeFiles/game_client.dir/src/graphic/raylib/camera.cpp.o"
+},
+{
+  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
   "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/raylib/raylib.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/raylib.cpp\"",
   "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/raylib.cpp",
   "output": "CMakeFiles/game_client.dir/src/graphic/raylib/raylib.cpp.o"
