@@ -10,6 +10,7 @@
 
     #include "Asio.hpp"
     #include "GameData.hpp"
+    #include "Raylib.hpp"
 
 class Graphic {
     public:
@@ -19,6 +20,7 @@ class Graphic {
     protected:
         std::shared_ptr<Asio> asio;
         std::shared_ptr<GameData> gameData;
+        Raylib raylib;
 };
 
 #endif /* !GRAPHIC_HPP_ */

@@ -37,6 +37,18 @@
 },
 {
   "directory": "/home/Ulysse/Projet Perso/GameClient/build",
+  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/raylib/raylib.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/raylib.cpp\"",
+  "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/raylib.cpp",
+  "output": "CMakeFiles/game_client.dir/src/graphic/raylib/raylib.cpp.o"
+},
+{
+  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
+  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/raylib/window.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/window.cpp\"",
+  "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/window.cpp",
+  "output": "CMakeFiles/game_client.dir/src/graphic/raylib/window.cpp.o"
+},
+{
+  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
   "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/main.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/main.cpp\"",
   "file": "/home/Ulysse/Projet Perso/GameClient/src/main.cpp",
   "output": "CMakeFiles/game_client.dir/src/main.cpp.o"

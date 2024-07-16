@@ -3,8 +3,8 @@ project(game_client VERSION 0.1.0 LANGUAGES C CXX)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-file(GLOB SOURCES "src/*.cpp" "src/client/*.cpp" "src/asio/*.cpp" "src/client/command/*.cpp" "src/graphic/*.cpp")
-file(GLOB HEADERS "include/*.hpp" "include/asio/*.hpp")
+file(GLOB SOURCES "src/*.cpp" "src/client/*.cpp" "src/asio/*.cpp" "src/client/command/*.cpp" "src/graphic/*.cpp" "src/graphic/raylib/*.cpp")
+file(GLOB HEADERS "include/*.hpp" "include/asio/*.hpp" "include/graphic/*.hpp")
 
 add_executable(game_client ${SOURCES} ${HEADERS})
 

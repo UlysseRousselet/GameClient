@@ -7,10 +7,10 @@
 
 #include "Graphic.hpp"
 
-Graphic::Graphic(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData) : asio(asio), gameData(gameData)
+Graphic::Graphic(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData) : asio(asio), gameData(gameData), raylib(asio, gameData)
 {
-    //mettre dans un thread
-    loop();
+    std::thread loop_thread(&Graphic::loop, this);
+    loop_thread.join();
 }
 
 Graphic::~Graphic()
@@ -21,6 +21,8 @@ void Graphic::loop()
 {
     while (true)
     {
-        ;
+        raylib.handleKeyEvent();
+
+        raylib.render();
     }
 }

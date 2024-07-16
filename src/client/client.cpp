@@ -12,8 +12,8 @@ Client::Client(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData) :
     //first connection
     asio->send_packet({1, {1.0, 2.0, 3.0, 4.0, 5.0}});
 
-    // dans un thread
-    loop();
+    std::thread loop_thread(&Client::loop, this);
+    loop_thread.join();
 }
 
 Client::~Client()
