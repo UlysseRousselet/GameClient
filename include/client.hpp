@@ -8,27 +8,22 @@
 #ifndef CLIENT_HPP_
     #define CLIENT_HPP_
 
+    #include "GameData.hpp"
+    #include "Asio.hpp"
     #include <iostream>
     #include <asio.hpp>
-
-struct Packet {
-    int id;
-    float args[5];
-};
+    #include <memory>
 
 class Client
 {
     public:
-        Client(std::string ip, std::string port);
+        Client(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData);
         ~Client();
         void loop();
-        void send_packet(Packet packet);
     private:
-        asio::io_context _io_context;
-        asio::ip::udp::resolver _resolver;
-        asio::ip::udp::resolver::query _query;
-        asio::ip::udp::endpoint _server_endpoint;
-        asio::ip::udp::socket _socket;
+        std::shared_ptr<Asio> asio;
+        std::shared_ptr<GameData> gameData;
+        
 };
 
 #endif /* !CLIENT_HPP_ */

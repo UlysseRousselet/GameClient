@@ -5,14 +5,15 @@
 ** main
 */
 
-#include "client.hpp"
+#include "Core.hpp"
 
 int main()
 {
-    Client client("127.0.0.1", "8080");
+    std::shared_ptr<GameData> gameDataPtr = std::make_shared<GameData>();
+    std::shared_ptr<Asio> asio_ptr = std::make_shared<Asio>("127.0.0.1", 8080);
     try
     {
-        client.loop();
+        Client client(asio_ptr, gameDataPtr);
     }
     catch (std::exception &e)
     {

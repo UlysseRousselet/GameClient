@@ -1,14 +1,17 @@
 [
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/client/client.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/client/client.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/client/client.cpp",
-  "output": "CMakeFiles/game_client.dir/src/client/client.cpp.o"
+  "directory": "/home/ulysse/Projet_Perso/GameClient/build",
+  "command": "/usr/bin/c++ -I/home/ulysse/Projet_Perso/GameClient/include -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/asio/asio_class.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/asio/asio_class.cpp",
+  "file": "/home/ulysse/Projet_Perso/GameClient/src/asio/asio_class.cpp"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/main.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/main.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/main.cpp",
-  "output": "CMakeFiles/game_client.dir/src/main.cpp.o"
+  "directory": "/home/ulysse/Projet_Perso/GameClient/build",
+  "command": "/usr/bin/c++ -I/home/ulysse/Projet_Perso/GameClient/include -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/client/client.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/client/client.cpp",
+  "file": "/home/ulysse/Projet_Perso/GameClient/src/client/client.cpp"
+},
+{
+  "directory": "/home/ulysse/Projet_Perso/GameClient/build",
+  "command": "/usr/bin/c++ -I/home/ulysse/Projet_Perso/GameClient/include -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/main.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/main.cpp",
+  "file": "/home/ulysse/Projet_Perso/GameClient/src/main.cpp"
 }
 ]
