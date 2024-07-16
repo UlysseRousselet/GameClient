@@ -13,14 +13,14 @@
     #include <map>
 
 struct Player {
-    int id;
+    int id = 0;
     std::string name;
     std::string email;
     std::string password;
-    int hp;
-    float posx;
-    float posy;
-    float posz;
+    int hp = 0;
+    float posx = 0;
+    float posy = 0;
+    float posz = 0;
 };
 
 struct GameData {

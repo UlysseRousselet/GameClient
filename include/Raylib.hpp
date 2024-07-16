@@ -12,6 +12,7 @@
     #include "GameData.hpp"
     #include "Window.hpp"
     #include "Camera.hpp"
+    #include "PlayerRender.hpp"
     #include <raylib.h>
 
 class Raylib {
@@ -25,6 +26,7 @@ class Raylib {
         std::shared_ptr<GameData> gameData;
         Window window;
         RenderCamera camera;
+        PlayerRender playerRender;
 };
 
 #endif /* !RAYLIB_HPP_ */
