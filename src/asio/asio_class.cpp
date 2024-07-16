@@ -21,7 +21,7 @@ Asio::~Asio()
 void Asio::receive_packet()
 {
   _socket.receive_from(asio::buffer(&answer, sizeof(Packet)), _server_endpoint);
-  std::cout << "Received: " << answer.id << " " << answer.args[0] << " " << answer.args[1] << " " << answer.args[2] << " " << answer.args[3] << std::endl;
+  std::cout << "Received: " << answer.id << " " << answer.args[0] << " " << answer.args[1] << " " << answer.args[2] << " " << answer.args[3] << " " << answer.args[4] << std::endl;
 }
 
 void Asio::send_packet(Packet packet)

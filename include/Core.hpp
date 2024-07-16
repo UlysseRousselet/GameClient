@@ -11,5 +11,6 @@
     #include "GameData.hpp"
     #include "Asio.hpp"
     #include "client.hpp"
+    #include <Graphic.hpp>
 
 #endif /* !CORE_HPP_ */

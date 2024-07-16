@@ -10,6 +10,7 @@
 
     #include "GameData.hpp"
     #include "Asio.hpp"
+    #include "Command.hpp"
     #include <iostream>
     #include <asio.hpp>
     #include <memory>
@@ -23,7 +24,7 @@ class Client
     private:
         std::shared_ptr<Asio> asio;
         std::shared_ptr<GameData> gameData;
-        
+        Command command;
 };
 
 #endif /* !CLIENT_HPP_ */

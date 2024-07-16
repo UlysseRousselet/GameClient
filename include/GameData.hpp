@@ -13,6 +13,7 @@
     #include <map>
 
 struct Player {
+    int id;
     std::string name;
     std::string email;
     std::string password;
@@ -23,7 +24,8 @@ struct Player {
 };
 
 struct GameData {
-    std::map <int, Player> players_online;
+    Player player;                          // The actual player info of the client
+    std::map <int, Player> players_online;  // The info of the other players
 };
 
 #endif /* !GAMEDATA_HPP_ */

@@ -14,6 +14,7 @@ int main()
     try
     {
         Client client(asio_ptr, gameDataPtr);
+        Graphic graphic(asio_ptr, gameDataPtr);
     }
     catch (std::exception &e)
     {

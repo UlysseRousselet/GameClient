@@ -1,7 +1,9 @@
 # ninja log v5
-5	2293	1721070488912904650	CMakeFiles/game_client.dir/src/client/client.cpp.o	8f5f6123043ad26
-6	2365	1721070488982904646	CMakeFiles/game_client.dir/src/main.cpp.o	1c740aba2b3f4f64
-3	2145	1721070538562901995	CMakeFiles/game_client.dir/src/client/client.cpp.o	8f5f6123043ad26
-3	2340	1721070538762901986	CMakeFiles/game_client.dir/src/main.cpp.o	1c740aba2b3f4f64
-3	2729	1721070581132900481	CMakeFiles/game_client.dir/src/asio/asio_class.cpp.o	71360cb751ec177d
-2729	2892	1721070581292900473	game_client	b0f4d98819057988
+7	29	1721123798514931087	CMakeFiles/game_client.dir/src/client/command/command.cpp.o	296aa037efea7488
+9	2352	1721123800829926483	CMakeFiles/game_client.dir/src/client/command/newConnection.cpp.o	924a924ac3d4cde0
+3	29	1721125493154520162	CMakeFiles/game_client.dir/src/client/client.cpp.o	a53faaa9dd41ea0e
+2	42	1721123640850244603	CMakeFiles/game_client.dir/src/asio/asio_class.cpp.o	49bf1910c9bab3c9
+4	23	1721125493157520156	CMakeFiles/game_client.dir/src/main.cpp.o	f7b6e6bb0747668f
+7	30	1721125162404190927	CMakeFiles/game_client.dir/src/client/command/otherPlayerConnection.cpp.o	4a4fb69657fe98bf
+2082	2226	1721125495361515658	game_client	cd72d608ed3eebfa
+4	2082	1721125495198515990	CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o	b8ec61abba4d3885
