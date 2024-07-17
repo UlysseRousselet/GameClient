@@ -61,14 +61,14 @@ void Raylib::handleKeyEvent()
 void Raylib::render()
 {
     BeginDrawing();
-    ClearBackground(BLUE);
-    DrawText("test", 190, 200, 20, LIGHTGRAY);
+    ClearBackground(Color{0, 0, 255, 255});
+    
 
     BeginMode3D(*camera._camera);
     this->playerRender.drawPlayer();
     this->map.drawMap();
     EndMode3D();
-
+    DrawText("test", 190, 200, 20, LIGHTGRAY);
     EndDrawing();
     // std::cout << "GameData posx: " << gameData->player.posx << std::endl;
     // std::cout << "Camera posx: " << camera._camera->position.x << std::endl;

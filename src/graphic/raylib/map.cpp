@@ -10,7 +10,7 @@
 Map::Map(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData) : _asio(asio), _gameData(gameData)
 {
     this->_mapModel = LoadModelFromMesh(GenMeshPlane(100.0f, 100.0f, 100, 100));
-    this->_mapTexture = LoadTexture("../assets/wow.png");
+    this->_mapTexture = LoadTexture("../assets/plateform2.png");
     this->_mapModel.materials[0].maps[MATERIAL_MAP_DIFFUSE].texture = this->_mapTexture;
 }
 
