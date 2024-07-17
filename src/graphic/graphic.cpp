@@ -18,7 +18,7 @@ Graphic::~Graphic()
 
 void Graphic::loop()
 {
-    while (true)
+    while (!WindowShouldClose())
     {
         raylib.handleKeyEvent();
 

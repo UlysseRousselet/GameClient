@@ -14,7 +14,7 @@ Asio::Asio(std::string ip, int port) : _io_context(), _resolver(_io_context), _q
 
 Asio::~Asio()
 {
-    send_packet({2, {1.0, 2.0, 3.0, 4.0, 5.0}});
+    send_packet({2, {0.0, 0.0, 0.0, 0.0, 0.0}});
     _socket.close();
 }
 

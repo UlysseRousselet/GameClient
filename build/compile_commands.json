@@ -31,6 +31,12 @@
 },
 {
   "directory": "/home/Ulysse/Projet Perso/GameClient/build",
+  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/client/command/otherPlayerDisconnection.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/client/command/otherPlayerDisconnection.cpp\"",
+  "file": "/home/Ulysse/Projet Perso/GameClient/src/client/command/otherPlayerDisconnection.cpp",
+  "output": "CMakeFiles/game_client.dir/src/client/command/otherPlayerDisconnection.cpp.o"
+},
+{
+  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
   "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/graphic.cpp\"",
   "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/graphic.cpp",
   "output": "CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o"

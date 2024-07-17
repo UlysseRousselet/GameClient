@@ -32,6 +32,6 @@ void Raylib::render()
     EndMode3D();
 
     EndDrawing();
-    std::cout << "GameData posx: " << gameData->player.posx << std::endl;
-    std::cout << "Camera posx: " << camera._camera->position.x << std::endl;
+    // std::cout << "GameData posx: " << gameData->player.posx << std::endl;
+    // std::cout << "Camera posx: " << camera._camera->position.x << std::endl;
 }
