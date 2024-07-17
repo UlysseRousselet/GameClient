@@ -10,7 +10,7 @@
 Window::Window()
 {
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
-    InitWindow(1920, 1080, "Game");
+    InitWindow(1920 / 2, 1080 / 2, "Game");
 }
 
 Window::~Window()

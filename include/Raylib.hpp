@@ -13,6 +13,7 @@
     #include "Window.hpp"
     #include "Camera.hpp"
     #include "PlayerRender.hpp"
+    #include "Map.hpp"
     #include <raylib.h>
 
 class Raylib {
@@ -27,6 +28,7 @@ class Raylib {
         Window window;
         RenderCamera camera;
         PlayerRender playerRender;
+        Map map;
 };
 
 #endif /* !RAYLIB_HPP_ */

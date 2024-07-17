@@ -22,6 +22,7 @@ class Command {
     void NewConnection();
     void OtherPlayerConnection();
     void OtherPlayerDisconnection();
+    void OtherPlayerMove();
   private:
     std::map<int, std::function<void()>> _cmdMap;
     std::shared_ptr<Asio> asio;
