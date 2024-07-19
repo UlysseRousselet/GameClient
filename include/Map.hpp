@@ -8,9 +8,10 @@
 #ifndef MAP_HPP_
     #define MAP_HPP_
 
-    #include "Asio.hpp"
-    #include "GameData.hpp"
     #include <raylib.h>
+
+    #include "AsioClass.hpp"
+    #include "GameData.hpp"
     #include <iostream>
     #include <memory>
 

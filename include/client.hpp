@@ -9,8 +9,9 @@
     #define CLIENT_HPP_
 
     #include "GameData.hpp"
-    #include "Asio.hpp"
+    #include "AsioClass.hpp"
     #include "Command.hpp"
+    #include <thread>
     #include <iostream>
     #include <asio.hpp>
     #include <memory>

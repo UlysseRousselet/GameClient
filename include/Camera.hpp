@@ -9,7 +9,6 @@
     #define CAMERA_HPP_
 
     #include "GameData.hpp"
-    #include <raylib.h>
 
 class RenderCamera {
     public:

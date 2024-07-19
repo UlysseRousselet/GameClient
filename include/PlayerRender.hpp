@@ -8,8 +8,9 @@
 #ifndef PLAYERDRAWER_HPP_
     #define PLAYERDRAWER_HPP_
 
-    #include "GameData.hpp"
     #include <raylib.h>
+
+    #include "GameData.hpp"
 
 class PlayerRender {
     public:

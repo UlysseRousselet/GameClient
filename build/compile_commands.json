@@ -1,86 +1,86 @@
 [
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/asio/asio_class.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/asio/asio_class.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/asio/asio_class.cpp",
-  "output": "CMakeFiles/game_client.dir/src/asio/asio_class.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\asio\\asio_class.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\asio\\asio_class.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\asio\\asio_class.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\asio\\asio_class.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/client/client.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/client/client.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/client/client.cpp",
-  "output": "CMakeFiles/game_client.dir/src/client/client.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\client\\client.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\client.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\client.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\client\\client.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/client/command/command.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/client/command/command.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/client/command/command.cpp",
-  "output": "CMakeFiles/game_client.dir/src/client/command/command.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\client\\command\\command.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\command\\command.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\command\\command.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\client\\command\\command.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/client/command/newConnection.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/client/command/newConnection.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/client/command/newConnection.cpp",
-  "output": "CMakeFiles/game_client.dir/src/client/command/newConnection.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\client\\command\\newConnection.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\command\\newConnection.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\command\\newConnection.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\client\\command\\newConnection.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/client/command/otherPlayerConnection.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/client/command/otherPlayerConnection.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/client/command/otherPlayerConnection.cpp",
-  "output": "CMakeFiles/game_client.dir/src/client/command/otherPlayerConnection.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\client\\command\\otherPlayerConnection.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\command\\otherPlayerConnection.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\command\\otherPlayerConnection.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\client\\command\\otherPlayerConnection.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/client/command/otherPlayerDisconnection.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/client/command/otherPlayerDisconnection.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/client/command/otherPlayerDisconnection.cpp",
-  "output": "CMakeFiles/game_client.dir/src/client/command/otherPlayerDisconnection.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\client\\command\\otherPlayerDisconnection.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\command\\otherPlayerDisconnection.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\command\\otherPlayerDisconnection.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\client\\command\\otherPlayerDisconnection.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/client/command/otherPlayerMove.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/client/command/otherPlayerMove.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/client/command/otherPlayerMove.cpp",
-  "output": "CMakeFiles/game_client.dir/src/client/command/otherPlayerMove.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\client\\command\\otherPlayerMove.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\command\\otherPlayerMove.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\client\\command\\otherPlayerMove.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\client\\command\\otherPlayerMove.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/graphic.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/graphic.cpp",
-  "output": "CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\graphic\\graphic.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\graphic.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\graphic.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\graphic\\graphic.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/raylib/camera.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/camera.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/camera.cpp",
-  "output": "CMakeFiles/game_client.dir/src/graphic/raylib/camera.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\graphic\\raylib\\camera.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\raylib\\camera.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\raylib\\camera.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\graphic\\raylib\\camera.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/raylib/map.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/map.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/map.cpp",
-  "output": "CMakeFiles/game_client.dir/src/graphic/raylib/map.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\graphic\\raylib\\map.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\raylib\\map.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\raylib\\map.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\graphic\\raylib\\map.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/raylib/playerRender.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/playerRender.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/playerRender.cpp",
-  "output": "CMakeFiles/game_client.dir/src/graphic/raylib/playerRender.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\graphic\\raylib\\playerRender.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\raylib\\playerRender.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\raylib\\playerRender.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\graphic\\raylib\\playerRender.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/raylib/raylib.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/raylib.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/raylib.cpp",
-  "output": "CMakeFiles/game_client.dir/src/graphic/raylib/raylib.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\graphic\\raylib\\raylib.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\raylib\\raylib.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\raylib\\raylib.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\graphic\\raylib\\raylib.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/graphic/raylib/window.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/window.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/graphic/raylib/window.cpp",
-  "output": "CMakeFiles/game_client.dir/src/graphic/raylib/window.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\graphic\\raylib\\window.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\raylib\\window.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\graphic\\raylib\\window.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\graphic\\raylib\\window.cpp.obj"
 },
 {
-  "directory": "/home/Ulysse/Projet Perso/GameClient/build",
-  "command": "/usr/lib64/ccache/c++ -I\"/home/Ulysse/Projet Perso/GameClient/include\" -g -Wall -Wextra -o CMakeFiles/game_client.dir/src/main.cpp.o -c \"/home/Ulysse/Projet Perso/GameClient/src/main.cpp\"",
-  "file": "/home/Ulysse/Projet Perso/GameClient/src/main.cpp",
-  "output": "CMakeFiles/game_client.dir/src/main.cpp.o"
+  "directory": "C:/Users/MON PC/Desktop/game client/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -D_WIN32_WINNT=0x0A00 -I\"C:/Users/MON PC/Desktop/game client/include\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src\" -I\"C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw/include\" -g -std=gnu++17 -Wall -Wextra -Wno-missing-field-initializers -o CMakeFiles\\game_client.dir\\src\\main.cpp.obj -c \"C:\\Users\\MON PC\\Desktop\\game client\\src\\main.cpp\"",
+  "file": "C:\\Users\\MON PC\\Desktop\\game client\\src\\main.cpp",
+  "output": "CMakeFiles\\game_client.dir\\src\\main.cpp.obj"
 }
 ]

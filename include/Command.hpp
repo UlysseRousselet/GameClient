@@ -9,10 +9,11 @@
     #define COMMAND_HPP_
 
     #include "GameData.hpp"
-    #include "Asio.hpp"
+    #include "AsioClass.hpp"
     #include <iostream>
     #include <memory>
     #include <map>
+    #include <functional>
 
 class Command {
   public:

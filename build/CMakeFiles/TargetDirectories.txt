@@ -1,3 +1,5 @@
-/home/Ulysse/Projet Perso/GameClient/build/CMakeFiles/game_client.dir
-/home/Ulysse/Projet Perso/GameClient/build/CMakeFiles/edit_cache.dir
-/home/Ulysse/Projet Perso/GameClient/build/CMakeFiles/rebuild_cache.dir
+C:/Users/MON PC/Desktop/game client/build/CMakeFiles/game_client.dir
+C:/Users/MON PC/Desktop/game client/build/CMakeFiles/package.dir
+C:/Users/MON PC/Desktop/game client/build/CMakeFiles/package_source.dir
+C:/Users/MON PC/Desktop/game client/build/CMakeFiles/edit_cache.dir
+C:/Users/MON PC/Desktop/game client/build/CMakeFiles/rebuild_cache.dir

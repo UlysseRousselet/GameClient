@@ -8,13 +8,16 @@
 #ifndef RAYLIB_HPP_
     #define RAYLIB_HPP_
 
-    #include "Asio.hpp"
+    #include "raylib.h"
+    #include "raymath.h"
+
+ 
+    #include "AsioClass.hpp"
     #include "GameData.hpp"
     #include "Window.hpp"
     #include "Camera.hpp"
     #include "PlayerRender.hpp"
     #include "Map.hpp"
-    #include <raylib.h>
 
 class Raylib {
     public:

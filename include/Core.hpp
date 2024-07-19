@@ -9,7 +9,7 @@
     #define CORE_HPP_
 
     #include "GameData.hpp"
-    #include "Asio.hpp"
+    #include "AsioClass.hpp"
     #include "client.hpp"
     #include "Graphic.hpp"
 
