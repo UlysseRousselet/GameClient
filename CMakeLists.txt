@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.5.0)
 project(game_client VERSION 0.1.0 LANGUAGES C CXX)
 
-add_definitions(-D_WIN32_WINNT=0x0A00)
+if (WIN32)
+    add_definitions(-D_WIN32_WINNT=0x0A00)
+endif()
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
@@ -13,7 +15,7 @@ include_directories(
 )
 
 file(GLOB SOURCES "src/*.cpp" "src/client/*.cpp" "src/asio/*.cpp" "src/client/command/*.cpp" "src/graphic/*.cpp" "src/graphic/raylib/*.cpp")
-file(GLOB HEADERS "include/*.hpp" "include/asio/*.hpp" "include/graphic/*.hpp")
+# file(GLOB HEADERS "include/*.hpp" "include/graphic/*.hpp")
 
 add_executable(game_client ${SOURCES} ${HEADERS})
 
