@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Build the examples.
-BUILD_EXAMPLES:BOOL=OFF
-
 // 
 BUILD_SHARED_LIBS:BOOL=OFF
 
@@ -327,8 +324,28 @@ ENABLE_MSAN:BOOL=OFF
 //Enable UndefinedBehaviorSanitizer (UBSan) for debugging
 ENABLE_UBSAN:BOOL=OFF
 
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=C:/Users/MON PC/Desktop/game client/build/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//When not empty, overrides where to find pre-populated content
+// for raylib
+FETCHCONTENT_SOURCE_DIR_RAYLIB:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of raylib
+FETCHCONTENT_UPDATES_DISCONNECTED_RAYLIB:BOOL=OFF
+
 //Value Computed by CMake
-GLFW_BINARY_DIR:STATIC=C:/Users/MON PC/Desktop/game client/build/raylib/raylib/raylib/external/glfw
+GLFW_BINARY_DIR:STATIC=C:/Users/MON PC/Desktop/game client/build/_deps/raylib-build/raylib/external/glfw
 
 //Build the GLFW documentation
 GLFW_BUILD_DOCS:BOOL=OFF
@@ -353,7 +370,7 @@ GLFW_IS_TOP_LEVEL:STATIC=OFF
 GLFW_LIBRARY_TYPE:STRING=
 
 //Value Computed by CMake
-GLFW_SOURCE_DIR:STATIC=C:/Users/MON PC/Desktop/game client/raylib/raylib/src/external/glfw
+GLFW_SOURCE_DIR:STATIC=C:/Users/MON PC/Desktop/game client/build/_deps/raylib-src/src/external/glfw
 
 //Force use of high-performance GPU on hybrid systems
 GLFW_USE_HYBRID_HPG:BOOL=OFF
@@ -394,7 +411,7 @@ game_client_IS_TOP_LEVEL:STATIC=ON
 game_client_SOURCE_DIR:STATIC=C:/Users/MON PC/Desktop/game client
 
 //Value Computed by CMake
-raylib_BINARY_DIR:STATIC=C:/Users/MON PC/Desktop/game client/build/raylib/raylib/raylib
+raylib_BINARY_DIR:STATIC=C:/Users/MON PC/Desktop/game client/build/_deps/raylib-build/raylib
 
 //Value Computed by CMake
 raylib_IS_TOP_LEVEL:STATIC=OFF
@@ -403,13 +420,15 @@ raylib_IS_TOP_LEVEL:STATIC=OFF
 raylib_LIB_DEPENDS:STATIC=general;opengl32;glu32;winmm;glfw;
 
 //Value Computed by CMake
-raylib_SOURCE_DIR:STATIC=C:/Users/MON PC/Desktop/game client/raylib/raylib/src
+raylib_SOURCE_DIR:STATIC=C:/Users/MON PC/Desktop/game client/build/_deps/raylib-src/src
 
 
 ########################
 # INTERNAL cache entries
 ########################
 
+//Build the examples.
+BUILD_EXAMPLES:INTERNAL=OFF
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -544,7 +563,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -633,4 +652,6 @@ XINPUT_H_FOUND:INTERNAL=1
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/game_client
+//Redirected by FetchContent
+raylib_DIR:INTERNAL=C:/Users/MON PC/Desktop/game client/build/CMakeFiles/pkgRedirects
 
