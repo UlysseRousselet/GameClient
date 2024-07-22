@@ -14,11 +14,11 @@ Client -> Server
 
 1 0 0 0 0 0 -> login(); Connection
 2 0 0 0 0 0-> disconnect(); Disconnection
-3 x y z 0 0 -> move(); Move the player
+3 x y z rot 0 -> move(); Move the player
 
 Server -> Client
 
 1 id x y z 0 -> NewConnection(); Retour de la demande de connection du client
 2 id x y z 0 -> OtherPlayerConnection(); Connexion of an other player on the scene
 3 id 0 0 0 0 -> OtherPlayerDisconnection(); Disconnexion of a player on the scene
-4 id x y z 0 -> OtherPlayerMove(); Move of a player on the scene
+4 id x y z rot -> OtherPlayerMove(); Move of a player on the scene
