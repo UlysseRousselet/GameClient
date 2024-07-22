@@ -10,7 +10,7 @@
 int main()
 {
     std::shared_ptr<GameData> gameDataPtr = std::make_shared<GameData>();
-    std::shared_ptr<Asio> asio_ptr = std::make_shared<Asio>("88.125.120.73", 35000);
+    std::shared_ptr<Asio> asio_ptr = std::make_shared<Asio>("127.0.0.1", 8080);
     try
     {
         Client client(asio_ptr, gameDataPtr);
