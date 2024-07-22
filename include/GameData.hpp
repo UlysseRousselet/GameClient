@@ -21,6 +21,7 @@ struct Player {
     float posx = 0;
     float posy = 0;
     float posz = 0;
+    float rot = 0;
 };
 
 struct GameData {

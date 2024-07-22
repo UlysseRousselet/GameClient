@@ -22,6 +22,7 @@ PlayerRender::~PlayerRender()
 void PlayerRender::drawPlayer()
 {
     for (auto &player : _gameData->players_online) {
-        DrawModel(_playerModel, (Vector3){player.second.posx, player.second.posy, player.second.posz}, 1.0f, WHITE);
+        // DrawModel(_playerModel, (Vector3){player.second.posx, player.second.posy, player.second.posz}, 1.0f, WHITE);
+        DrawModelEx(_playerModel, (Vector3){player.second.posx, player.second.posy, player.second.posz}, (Vector3){0.0f, 1.0f, 0.0f}, player.second.rot, (Vector3){1.0f, 1.0f, 1.0f}, WHITE);
     }
 }
