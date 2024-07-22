@@ -15,7 +15,9 @@ class RenderCamera {
         RenderCamera(std::shared_ptr<GameData> gameData);
         ~RenderCamera();
 
-        std::unique_ptr<Camera3D> _camera;
+        void update();
+
+        Camera3D _camera;
 
     protected:
         std::shared_ptr<GameData> _gameData;
