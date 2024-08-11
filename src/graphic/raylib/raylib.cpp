@@ -21,6 +21,8 @@ void Raylib::handleKeyEvent()
     bool asMoved = false;
     if (IsKeyDown(KEY_W)) {
         UpdateCameraPro(&camera._camera, (Vector3){GetFrameTime() * 15, 0.0f, 0.0f}, (Vector3){0.0f, 0.0f, 0.0f}, 0.0f);
+        gameData->player.posx += GetFrameTime() * cos(gameData->player.rot);
+        gameData->player.posy += GetFrameTime() * sin(gameData->player.rot);
         asMoved = true;
     }
     if (IsKeyDown(KEY_S)) {
@@ -49,20 +51,16 @@ void Raylib::handleKeyEvent()
         UpdateCameraPro(&camera._camera, (Vector3){0.0f, 0.0f, 0.0f}, (Vector3){0.0f, GetFrameTime() * 30, 0.0f}, 0.0f);
     UpdateCameraPro(&camera._camera, (Vector3){0.0f, 0.0f, 0.0f}, (Vector3){0.0f, 0.0f, 0.0f}, -GetMouseWheelMove()*2.0f);
     UpdateCameraPro(&camera._camera, (Vector3){0.0f, 0.0f, 0.0f}, (Vector3){GetMouseDelta().x*0.05f, GetMouseDelta().y*0.05f, 0.0f}, 0.0f);
-
     if (asMoved) {
-        gameData->player.posx = camera._camera.position.x;
-        gameData->player.posy = camera._camera.position.y;
-        gameData->player.posz = camera._camera.position.z;
-        float angle = atan2(camera._camera.target.z - camera._camera.position.z, camera._camera.target.x - camera._camera.position.x);
-        asio->send_packet({3, {camera._camera.position.x, camera._camera.position.y, camera._camera.position.z, angle, 0}});
+        camera.update();
+
+        // float angle = atan2(camera._camera.target.z - camera._camera.position.z, camera._camera.target.x - camera._camera.position.x);
+        //asio->send_packet({3, {camera._camera.position.x, camera._camera.position.y, camera._camera.position.z, 0, 0}});
     }
 }
 
 void Raylib::render()
 {
-    camera.update();
-
     BeginDrawing();
     ClearBackground(Color{0, 0, 255, 255});
     
