@@ -30,6 +30,8 @@ RenderCamera::~RenderCamera()
 void RenderCamera::update()
 {
     _camera.position.x = _gameData->player.posx;
-    _camera.position.y = _gameData->player.posy;
+    _camera.position.y = _gameData->player.posy + 5;
     _camera.position.z = _gameData->player.posz;
+    _camera.target.x = _gameData->player.posx + cos(_gameData->player.rotx);
+    _camera.target.z = _gameData->player.posz + sin(_gameData->player.rotx);
 }
