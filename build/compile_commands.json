@@ -36,33 +36,28 @@
 },
 {
   "directory": "/home/ulysse/Projet_Perso/GameClient/build",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17 -o CMakeFiles/game_client.dir/src/graphic/camera.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/graphic/camera.cpp",
+  "file": "/home/ulysse/Projet_Perso/GameClient/src/graphic/camera.cpp"
+},
+{
+  "directory": "/home/ulysse/Projet_Perso/GameClient/build",
   "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17 -o CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/graphic/graphic.cpp",
   "file": "/home/ulysse/Projet_Perso/GameClient/src/graphic/graphic.cpp"
 },
 {
   "directory": "/home/ulysse/Projet_Perso/GameClient/build",
-  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17 -o CMakeFiles/game_client.dir/src/graphic/raylib/camera.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/camera.cpp",
-  "file": "/home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/camera.cpp"
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17 -o CMakeFiles/game_client.dir/src/graphic/map.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/graphic/map.cpp",
+  "file": "/home/ulysse/Projet_Perso/GameClient/src/graphic/map.cpp"
 },
 {
   "directory": "/home/ulysse/Projet_Perso/GameClient/build",
-  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17 -o CMakeFiles/game_client.dir/src/graphic/raylib/map.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/map.cpp",
-  "file": "/home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/map.cpp"
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17 -o CMakeFiles/game_client.dir/src/graphic/playerRender.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/graphic/playerRender.cpp",
+  "file": "/home/ulysse/Projet_Perso/GameClient/src/graphic/playerRender.cpp"
 },
 {
   "directory": "/home/ulysse/Projet_Perso/GameClient/build",
-  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17 -o CMakeFiles/game_client.dir/src/graphic/raylib/playerRender.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/playerRender.cpp",
-  "file": "/home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/playerRender.cpp"
-},
-{
-  "directory": "/home/ulysse/Projet_Perso/GameClient/build",
-  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17 -o CMakeFiles/game_client.dir/src/graphic/raylib/raylib.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/raylib.cpp",
-  "file": "/home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/raylib.cpp"
-},
-{
-  "directory": "/home/ulysse/Projet_Perso/GameClient/build",
-  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17 -o CMakeFiles/game_client.dir/src/graphic/raylib/window.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/window.cpp",
-  "file": "/home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/window.cpp"
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17 -o CMakeFiles/game_client.dir/src/graphic/window.cpp.o -c /home/ulysse/Projet_Perso/GameClient/src/graphic/window.cpp",
+  "file": "/home/ulysse/Projet_Perso/GameClient/src/graphic/window.cpp"
 },
 {
   "directory": "/home/ulysse/Projet_Perso/GameClient/build",

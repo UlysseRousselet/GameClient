@@ -105,6 +105,14 @@ build CMakeFiles/game_client.dir/src/client/command/otherPlayerMove.cpp.o: CXX_C
   OBJECT_DIR = CMakeFiles/game_client.dir
   OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/client/command
 
+build CMakeFiles/game_client.dir/src/graphic/camera.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/graphic/camera.cpp || cmake_object_order_depends_target_game_client
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles/game_client.dir/src/graphic/camera.cpp.o.d
+  FLAGS = -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17
+  INCLUDES = -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = CMakeFiles/game_client.dir
+  OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/graphic
+
 build CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/graphic/graphic.cpp || cmake_object_order_depends_target_game_client
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o.d
@@ -113,45 +121,29 @@ build CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o: CXX_COMPILER__game_c
   OBJECT_DIR = CMakeFiles/game_client.dir
   OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/graphic
 
-build CMakeFiles/game_client.dir/src/graphic/raylib/camera.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/camera.cpp || cmake_object_order_depends_target_game_client
+build CMakeFiles/game_client.dir/src/graphic/map.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/graphic/map.cpp || cmake_object_order_depends_target_game_client
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles/game_client.dir/src/graphic/raylib/camera.cpp.o.d
+  DEP_FILE = CMakeFiles/game_client.dir/src/graphic/map.cpp.o.d
   FLAGS = -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17
   INCLUDES = -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = CMakeFiles/game_client.dir
-  OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/graphic/raylib
+  OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/graphic
 
-build CMakeFiles/game_client.dir/src/graphic/raylib/map.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/map.cpp || cmake_object_order_depends_target_game_client
+build CMakeFiles/game_client.dir/src/graphic/playerRender.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/graphic/playerRender.cpp || cmake_object_order_depends_target_game_client
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles/game_client.dir/src/graphic/raylib/map.cpp.o.d
+  DEP_FILE = CMakeFiles/game_client.dir/src/graphic/playerRender.cpp.o.d
   FLAGS = -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17
   INCLUDES = -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = CMakeFiles/game_client.dir
-  OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/graphic/raylib
+  OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/graphic
 
-build CMakeFiles/game_client.dir/src/graphic/raylib/playerRender.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/playerRender.cpp || cmake_object_order_depends_target_game_client
+build CMakeFiles/game_client.dir/src/graphic/window.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/graphic/window.cpp || cmake_object_order_depends_target_game_client
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles/game_client.dir/src/graphic/raylib/playerRender.cpp.o.d
+  DEP_FILE = CMakeFiles/game_client.dir/src/graphic/window.cpp.o.d
   FLAGS = -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17
   INCLUDES = -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = CMakeFiles/game_client.dir
-  OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/graphic/raylib
-
-build CMakeFiles/game_client.dir/src/graphic/raylib/raylib.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/raylib.cpp || cmake_object_order_depends_target_game_client
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles/game_client.dir/src/graphic/raylib/raylib.cpp.o.d
-  FLAGS = -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17
-  INCLUDES = -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles/game_client.dir
-  OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/graphic/raylib
-
-build CMakeFiles/game_client.dir/src/graphic/raylib/window.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/graphic/raylib/window.cpp || cmake_object_order_depends_target_game_client
-  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles/game_client.dir/src/graphic/raylib/window.cpp.o.d
-  FLAGS = -g -Wall -Wextra -Wno-missing-field-initializers -std=gnu++17
-  INCLUDES = -I/home/ulysse/Projet_Perso/GameClient/include -I/home/ulysse/Projet_Perso/GameClient/include/raylib/include -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src -I/home/ulysse/Projet_Perso/GameClient/build/_deps/raylib-src/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles/game_client.dir
-  OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/graphic/raylib
+  OBJECT_FILE_DIR = CMakeFiles/game_client.dir/src/graphic
 
 build CMakeFiles/game_client.dir/src/main.cpp.o: CXX_COMPILER__game_client_Debug /home/ulysse/Projet_Perso/GameClient/src/main.cpp || cmake_object_order_depends_target_game_client
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
@@ -169,7 +161,7 @@ build CMakeFiles/game_client.dir/src/main.cpp.o: CXX_COMPILER__game_client_Debug
 #############################################
 # Link the executable game_client
 
-build game_client: CXX_EXECUTABLE_LINKER__game_client_Debug CMakeFiles/game_client.dir/src/asio/asio_class.cpp.o CMakeFiles/game_client.dir/src/client/client.cpp.o CMakeFiles/game_client.dir/src/client/command/command.cpp.o CMakeFiles/game_client.dir/src/client/command/newConnection.cpp.o CMakeFiles/game_client.dir/src/client/command/otherPlayerConnection.cpp.o CMakeFiles/game_client.dir/src/client/command/otherPlayerDisconnection.cpp.o CMakeFiles/game_client.dir/src/client/command/otherPlayerMove.cpp.o CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o CMakeFiles/game_client.dir/src/graphic/raylib/camera.cpp.o CMakeFiles/game_client.dir/src/graphic/raylib/map.cpp.o CMakeFiles/game_client.dir/src/graphic/raylib/playerRender.cpp.o CMakeFiles/game_client.dir/src/graphic/raylib/raylib.cpp.o CMakeFiles/game_client.dir/src/graphic/raylib/window.cpp.o CMakeFiles/game_client.dir/src/main.cpp.o | _deps/raylib-build/raylib/libraylib.a /usr/lib/i386-linux-gnu/libOpenGL.so /usr/lib/i386-linux-gnu/libGLX.so _deps/raylib-build/raylib/external/glfw/src/libglfw3.a /usr/lib/i386-linux-gnu/librt.a /usr/lib/i386-linux-gnu/libm.so || _deps/raylib-build/raylib/external/glfw/src/libglfw3.a _deps/raylib-build/raylib/libraylib.a
+build game_client: CXX_EXECUTABLE_LINKER__game_client_Debug CMakeFiles/game_client.dir/src/asio/asio_class.cpp.o CMakeFiles/game_client.dir/src/client/client.cpp.o CMakeFiles/game_client.dir/src/client/command/command.cpp.o CMakeFiles/game_client.dir/src/client/command/newConnection.cpp.o CMakeFiles/game_client.dir/src/client/command/otherPlayerConnection.cpp.o CMakeFiles/game_client.dir/src/client/command/otherPlayerDisconnection.cpp.o CMakeFiles/game_client.dir/src/client/command/otherPlayerMove.cpp.o CMakeFiles/game_client.dir/src/graphic/camera.cpp.o CMakeFiles/game_client.dir/src/graphic/graphic.cpp.o CMakeFiles/game_client.dir/src/graphic/map.cpp.o CMakeFiles/game_client.dir/src/graphic/playerRender.cpp.o CMakeFiles/game_client.dir/src/graphic/window.cpp.o CMakeFiles/game_client.dir/src/main.cpp.o | _deps/raylib-build/raylib/libraylib.a /usr/lib/i386-linux-gnu/libOpenGL.so /usr/lib/i386-linux-gnu/libGLX.so _deps/raylib-build/raylib/external/glfw/src/libglfw3.a /usr/lib/i386-linux-gnu/librt.a /usr/lib/i386-linux-gnu/libm.so || _deps/raylib-build/raylib/external/glfw/src/libglfw3.a _deps/raylib-build/raylib/libraylib.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/raylib-build/raylib/libraylib.a  -lm  -lpthread  /usr/lib/i386-linux-gnu/libOpenGL.so  /usr/lib/i386-linux-gnu/libGLX.so  _deps/raylib-build/raylib/external/glfw/src/libglfw3.a  /usr/lib/i386-linux-gnu/librt.a  /usr/lib/i386-linux-gnu/libm.so  -ldl
   OBJECT_DIR = CMakeFiles/game_client.dir

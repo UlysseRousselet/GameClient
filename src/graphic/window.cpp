@@ -5,7 +5,7 @@
 ** graphic_class
 */
 
-#include "Raylib.hpp"
+#include "Graphic.hpp"
 
 Window::Window()
 {
