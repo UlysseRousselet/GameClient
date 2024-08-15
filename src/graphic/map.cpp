@@ -22,4 +22,5 @@ Map::~Map()
 void Map::drawMap()
 {
     DrawModel(this->_mapModel, (Vector3){0.0f, -3.0f, 0.0f}, 1.0f, WHITE);
+    DrawModel(this->_mapModel, (Vector3){-3.0f, 0.0f, 3.0f}, 0.02f, RED);
 }
