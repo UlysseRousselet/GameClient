@@ -12,6 +12,7 @@
     #include <iostream>
     #include <map>
 
+//stoque les infos du player client
 struct Player {
     int id = 0;
     std::string name;
@@ -24,9 +25,16 @@ struct Player {
     float rotx = 0;
 };
 
+//stoque les parametres
+struct Settings {
+    float sensitivity;                      // sensi de la souris
+    std::map<int, std::string> touchMap;    // mapping des touches
+};
+
 struct GameData {
     Player player;                          // The actual player info of the client
     std::map <int, Player> players_online;  // The info of the other players
+    Settings settings;
 };
 
 #endif /* !GAMEDATA_HPP_ */

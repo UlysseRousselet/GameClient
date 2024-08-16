@@ -17,7 +17,8 @@
     #include "Window.hpp"
     #include "Camera.hpp"
     #include "PlayerRender.hpp"
-    #include "Map.hpp"
+    #include "MapRender.hpp"
+    #include "SettingsHandler.hpp"
 
 class Graphic {
     public:
@@ -32,7 +33,8 @@ class Graphic {
         Window window;
         RenderCamera camera;
         PlayerRender playerRender;
-        Map map;
+        MapRender map;
+        SettingsHandler settings;
 };
 
 #endif /* !RAYLIB_HPP_ */

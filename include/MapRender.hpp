@@ -15,10 +15,10 @@
     #include <iostream>
     #include <memory>
 
-class Map {
+class MapRender {
     public:
-        Map(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData);
-        ~Map();
+        MapRender(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData);
+        ~MapRender();
         void drawMap();
     protected:
         std::shared_ptr<Asio> _asio;

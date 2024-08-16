@@ -52,12 +52,17 @@ void Graphic::handleKeyEvent()
         gameData->player.rotx += GetFrameTime();
         asMoved = true;
     }
+
     // if (IsKeyDown(KEY_UP))
     //     UpdateCameraPro(&camera._camera, (Vector3){0.0f, 0.0f, 0.0f}, (Vector3){0.0f, -GetFrameTime() * 30, 0.0f}, 0.0f);
     // if (IsKeyDown(KEY_DOWN))
     //     UpdateCameraPro(&camera._camera, (Vector3){0.0f, 0.0f, 0.0f}, (Vector3){0.0f, GetFrameTime() * 30, 0.0f}, 0.0f);
     //UpdateCameraPro(&camera._camera, (Vector3){0.0f, 0.0f, 0.0f}, (Vector3){0.0f, 0.0f, 0.0f}, -GetMouseWheelMove()*2.0f);
     //UpdateCameraPro(&camera._camera, (Vector3){0.0f, 0.0f, 0.0f}, (Vector3){GetMouseDelta().x*0.05f, GetMouseDelta().y*0.05f, 0.0f}, 0.0f);
+    if (GetMouseDelta().x != 0) {
+        asMoved = true;
+    }
+    
     if (asMoved) {
         camera.update();
 
