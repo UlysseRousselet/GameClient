@@ -5,8 +5,8 @@
 ** Core
 */
 
-#ifndef PLAYERDRAWER_HPP_
-    #define PLAYERDRAWER_HPP_
+#ifndef PLAYERRENDER_HPP_
+    #define PLAYERRENDER_HPP_
 
     #include <raylib.h>
 
@@ -22,4 +22,4 @@ class PlayerRender {
         Model _playerModel;
 };
 
-#endif /* !PLAYERDRAWER_HPP_ */
+#endif /* !PLAYERRENDER_HPP_ */

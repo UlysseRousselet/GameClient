@@ -24,7 +24,8 @@ include_directories(
     ${RAYLIB_DIR}/include
 )
 
-file(GLOB SOURCES "src/*.cpp" "src/client/*.cpp" "src/asio/*.cpp" "src/client/command/*.cpp" "src/graphic/*.cpp" "src/graphic/raylib/*.cpp")
+file(GLOB SOURCES "src/*.cpp" "src/client/*.cpp" "src/asio/*.cpp" "src/client/command/*.cpp" 
+"src/graphic/*.cpp" "src/graphic/render/*.cpp" "src/graphic/settings/*.cpp")
 # file(GLOB HEADERS "include/*.hpp" "include/graphic/*.hpp")
 
 add_executable(game_client ${SOURCES} ${HEADERS})

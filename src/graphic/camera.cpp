@@ -9,15 +9,15 @@
 
 RenderCamera::RenderCamera(std::shared_ptr<GameData> gameData) : _gameData(gameData)
 {
-    _camera.position.x = _gameData->player.posx;
-    _camera.position.y = _gameData->player.posy + 0.5;
-    _camera.position.z = _gameData->player.posz;
-    _camera.target = (Vector3){ 10.0f, 0.5f, 0.0f };
-    _camera.up = (Vector3){ 0.0f, 1.0f, 0.0f };
-    _camera.fovy = 90.0f;
-    _camera.projection = CAMERA_PERSPECTIVE;
-    HideCursor();
-    DisableCursor();
+    _gameData->camera.position.x = _gameData->player.posx;
+    _gameData->camera.position.y = _gameData->player.posy + 0.5;
+    _gameData->camera.position.z = _gameData->player.posz;
+    _gameData->camera.target = (Vector3){ 10.0f, 0.5f, 0.0f };
+    _gameData->camera.up = (Vector3){ 0.0f, 1.0f, 0.0f };
+    _gameData->camera.fovy = 90.0f;
+    _gameData->camera.projection = CAMERA_PERSPECTIVE;
+    //HideCursor();
+    //DisableCursor();
 }
 
 RenderCamera::~RenderCamera()
@@ -30,10 +30,10 @@ RenderCamera::~RenderCamera()
 */
 void RenderCamera::update()
 {
-    _camera.position.x = _gameData->player.posx;
-    _camera.position.y = _gameData->player.posy + 0.5;
-    _camera.position.z = _gameData->player.posz;
-    _camera.target.x = _gameData->player.posx + cos(_gameData->player.rotx);
-    _camera.target.z = _gameData->player.posz + sin(_gameData->player.rotx);
-    _camera.target.y = _gameData->player.posy + 0.5;
+    _gameData->camera.position.x = _gameData->player.posx;
+    _gameData->camera.position.y = _gameData->player.posy + 0.5;
+    _gameData->camera.position.z = _gameData->player.posz;
+    _gameData->camera.target.x = _gameData->player.posx + cos(_gameData->player.rotx);
+    _gameData->camera.target.z = _gameData->player.posz + sin(_gameData->player.rotx);
+    _gameData->camera.target.y = _gameData->player.posy + 0.5;
 }

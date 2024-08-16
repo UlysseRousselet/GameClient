@@ -17,8 +17,6 @@ class RenderCamera {
 
         void update();
 
-        Camera3D _camera;
-
     protected:
         std::shared_ptr<GameData> _gameData;
 };

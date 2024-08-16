@@ -7,15 +7,15 @@
 
 #include "Graphic.hpp"
 
-SettingsHandler::SettingsHandler()
+SettingsHandler::SettingsHandler(std::shared_ptr<GameData> gameData) : _gameData(gameData)
 {
     //mettre dans gameData
-    sensitivity = 1.0f;
+    _gameData->settings.sensitivity = 0.1f;
 
-    this->touchMap.at(KEY_W) = "FORWARD";
-    this->touchMap.at(KEY_S) = "BACKWARD";
-    this->touchMap.at(KEY_D) = "RIGHT";
-    this->touchMap.at(KEY_A) = "LEFT";
+    _gameData->settings.touchMap.insert({"FORWARD", KEY_W});
+    _gameData->settings.touchMap.insert({"BACKWARD", KEY_S});
+    _gameData->settings.touchMap.insert({"RIGHT", KEY_D});
+    _gameData->settings.touchMap.insert({"LEFT", KEY_A});
 }
 
 SettingsHandler::~SettingsHandler()

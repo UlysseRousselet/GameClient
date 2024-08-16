@@ -8,6 +8,8 @@
 #ifndef GAMEDATA_HPP_
     #define GAMEDATA_HPP_
 
+    #include "raylib.h"
+
     #include <asio.hpp>
     #include <iostream>
     #include <map>
@@ -28,13 +30,14 @@ struct Player {
 //stoque les parametres
 struct Settings {
     float sensitivity;                      // sensi de la souris
-    std::map<int, std::string> touchMap;    // mapping des touches
+    std::map<std::string, int> touchMap;    // mapping des touches
 };
 
 struct GameData {
     Player player;                          // The actual player info of the client
     std::map <int, Player> players_online;  // The info of the other players
     Settings settings;
+    Camera3D camera;
 };
 
 #endif /* !GAMEDATA_HPP_ */

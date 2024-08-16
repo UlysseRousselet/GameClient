@@ -7,7 +7,7 @@
 
 #include "Graphic.hpp"
 
-Graphic::Graphic(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData) : asio(asio), gameData(gameData), window(), camera(gameData), playerRender(gameData), map(asio, gameData)
+Graphic::Graphic(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData) : asio(asio), gameData(gameData), window(), camera(gameData), playerRender(gameData), map(asio, gameData), settings(gameData)
 {
     loop();
 }
@@ -60,6 +60,7 @@ void Graphic::handleKeyEvent()
     //UpdateCameraPro(&camera._camera, (Vector3){0.0f, 0.0f, 0.0f}, (Vector3){0.0f, 0.0f, 0.0f}, -GetMouseWheelMove()*2.0f);
     //UpdateCameraPro(&camera._camera, (Vector3){0.0f, 0.0f, 0.0f}, (Vector3){GetMouseDelta().x*0.05f, GetMouseDelta().y*0.05f, 0.0f}, 0.0f);
     if (GetMouseDelta().x != 0) {
+        gameData->player.rotx += GetMouseDelta().x * gameData->settings.sensitivity;
         asMoved = true;
     }
     
@@ -76,7 +77,7 @@ void Graphic::render()
     ClearBackground(Color{0, 0, 255, 255});
     
 
-    BeginMode3D(camera._camera);
+    BeginMode3D(gameData->camera);
     this->playerRender.drawPlayer();
     this->map.drawMap();
     EndMode3D();

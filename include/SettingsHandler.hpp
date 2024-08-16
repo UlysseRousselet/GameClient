@@ -5,17 +5,21 @@
 ** settings
 */
 
-#ifndef SETTINGS_HPP
-    #define SETTINGS_HPP
+#ifndef SETTINGSHANDLER_HPP
+    #define SETTINGSHANDLER_HPP
 
     #include <iostream>
     #include <map>
+    #include <memory>
+    #include "GameData.hpp"
 
 class SettingsHandler
 {
     public:
-        SettingsHandler();
+        SettingsHandler(std::shared_ptr<GameData> gameData);
         ~SettingsHandler();
+    private:
+        std::shared_ptr<GameData> _gameData;
 };
 
-#endif /* !SETTINGS_HPP */
+#endif /* !SETTINGHANDLER_HPP */
