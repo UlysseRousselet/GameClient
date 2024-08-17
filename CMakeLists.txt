@@ -25,7 +25,8 @@ include_directories(
 )
 
 file(GLOB SOURCES "src/*.cpp" "src/client/*.cpp" "src/asio/*.cpp" "src/client/command/*.cpp" 
-"src/graphic/*.cpp" "src/graphic/render/*.cpp" "src/graphic/settings/*.cpp")
+"src/graphic/*.cpp" "src/graphic/render/*.cpp" "src/graphic/settings/*.cpp" "src/graphic/event/*.cpp"
+"src/graphic/event/firstPerson/*.cpp" "src/graphic/event/menu/*.cpp")
 # file(GLOB HEADERS "include/*.hpp" "include/graphic/*.hpp")
 
 add_executable(game_client ${SOURCES} ${HEADERS})

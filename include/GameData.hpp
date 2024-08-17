@@ -14,6 +14,11 @@
     #include <iostream>
     #include <map>
 
+enum struct PlayerState {
+    NOT_IN_MENU,
+    IN_MENU
+};
+
 //stoque les infos du player client
 struct Player {
     int id = 0;
@@ -36,8 +41,9 @@ struct Settings {
 struct GameData {
     Player player;                          // The actual player info of the client
     std::map <int, Player> players_online;  // The info of the other players
-    Settings settings;
-    Camera3D camera;
+    Settings settings;                      // Setting like video quality or keybind
+    Camera3D camera;                        // The camera of the client player
+    PlayerState playerState;                // define if the client is in menu or playing
 };
 
 #endif /* !GAMEDATA_HPP_ */

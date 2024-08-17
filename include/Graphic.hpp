@@ -19,6 +19,7 @@
     #include "PlayerRender.hpp"
     #include "MapRender.hpp"
     #include "SettingsHandler.hpp"
+    #include "EventHandler.hpp"
 
 class Graphic {
     public:
@@ -30,11 +31,13 @@ class Graphic {
     protected:
         std::shared_ptr<Asio> asio;
         std::shared_ptr<GameData> gameData;
+
         Window window;
         RenderCamera camera;
         PlayerRender playerRender;
         MapRender map;
         SettingsHandler settings;
+        EventHandler event;
 };
 
 #endif /* !RAYLIB_HPP_ */

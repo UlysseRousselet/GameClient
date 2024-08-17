@@ -9,7 +9,8 @@
 
 SettingsHandler::SettingsHandler(std::shared_ptr<GameData> gameData) : _gameData(gameData)
 {
-    //mettre dans gameData
+    _gameData->playerState = PlayerState::NOT_IN_MENU;
+
     _gameData->settings.sensitivity = 0.1f;
 
     _gameData->settings.touchMap.insert({"FORWARD", KEY_W});

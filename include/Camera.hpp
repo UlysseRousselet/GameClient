@@ -15,10 +15,9 @@ class RenderCamera {
         RenderCamera(std::shared_ptr<GameData> gameData);
         ~RenderCamera();
 
-        void update();
+        static void update(std::shared_ptr<GameData> gameData);
 
     protected:
-        std::shared_ptr<GameData> _gameData;
 };
 
 #endif /* !CAMERA_HPP_ */

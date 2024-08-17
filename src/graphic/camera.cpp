@@ -7,15 +7,15 @@
 
 #include "Graphic.hpp"
 
-RenderCamera::RenderCamera(std::shared_ptr<GameData> gameData) : _gameData(gameData)
+RenderCamera::RenderCamera(std::shared_ptr<GameData> gameData)
 {
-    _gameData->camera.position.x = _gameData->player.posx;
-    _gameData->camera.position.y = _gameData->player.posy + 0.5;
-    _gameData->camera.position.z = _gameData->player.posz;
-    _gameData->camera.target = (Vector3){ 10.0f, 0.5f, 0.0f };
-    _gameData->camera.up = (Vector3){ 0.0f, 1.0f, 0.0f };
-    _gameData->camera.fovy = 90.0f;
-    _gameData->camera.projection = CAMERA_PERSPECTIVE;
+    gameData->camera.position.x = gameData->player.posx;
+    gameData->camera.position.y = gameData->player.posy + 0.75f;
+    gameData->camera.position.z = gameData->player.posz;
+    gameData->camera.target = (Vector3){ 10.0f, 0.75f, 0.0f };
+    gameData->camera.up = (Vector3){ 0.0f, 1.0f, 0.0f };
+    gameData->camera.fovy = 90.0f;
+    gameData->camera.projection = CAMERA_PERSPECTIVE;
     //HideCursor();
     //DisableCursor();
 }
@@ -28,12 +28,12 @@ RenderCamera::~RenderCamera()
 /*
 * Update camera with the position of the player
 */
-void RenderCamera::update()
+void RenderCamera::update(std::shared_ptr<GameData> gameData)
 {
-    _gameData->camera.position.x = _gameData->player.posx;
-    _gameData->camera.position.y = _gameData->player.posy + 0.5;
-    _gameData->camera.position.z = _gameData->player.posz;
-    _gameData->camera.target.x = _gameData->player.posx + cos(_gameData->player.rotx);
-    _gameData->camera.target.z = _gameData->player.posz + sin(_gameData->player.rotx);
-    _gameData->camera.target.y = _gameData->player.posy + 0.5;
+    gameData->camera.position.x = gameData->player.posx;
+    gameData->camera.position.y = gameData->player.posy + 0.75f;
+    gameData->camera.position.z = gameData->player.posz;
+    gameData->camera.target.x = gameData->player.posx + cos(gameData->player.rotx);
+    gameData->camera.target.z = gameData->player.posz + sin(gameData->player.rotx);
+    gameData->camera.target.y = gameData->player.posy + 0.75f;
 }
