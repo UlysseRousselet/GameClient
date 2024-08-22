@@ -27,7 +27,6 @@ class Graphic {
         ~Graphic();
         void loop();
         void render();
-        void handleKeyEvent();
     protected:
         std::shared_ptr<Asio> asio;
         std::shared_ptr<GameData> gameData;
