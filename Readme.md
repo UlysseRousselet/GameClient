@@ -12,13 +12,14 @@ https://lucid.app/lucidchart/f8cad297-d940-4ca0-a8fc-29c7bc30e35b/edit?invitatio
 
 Client -> Server
 
-1 0 0 0 0 0 -> login(); Connection
-2 0 0 0 0 0-> disconnect(); Disconnection
-3 x y z rotx 0 -> move(); Move the player
+1 email password -> login(); Connection
+2                -> disconnect(); Disconnection
+3 x y z rotx     -> move(); Move the player
 
 Server -> Client
 
-1 id x y z 0 -> NewConnection(); Retour de la demande de connection du client
-2 id x y z 0 -> OtherPlayerConnection(); Connexion of an other player on the scene
-3 id 0 0 0 0 -> OtherPlayerDisconnection(); Disconnexion of a player on the scene
+1 id x y z      -> NewConnection(); Retour de la demande de connection du client
+2 id x y z      -> OtherPlayerConnection(); Connexion of an other player on the scene
+3 id            -> OtherPlayerDisconnection(); Disconnexion of a player on the scene
 4 id x y z rotx -> OtherPlayerMove(); Move of a player on the scene
+403             -> Forbiden(); Player not connected
