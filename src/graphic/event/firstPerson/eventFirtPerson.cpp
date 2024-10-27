@@ -58,6 +58,6 @@ void EventHandler::eventFirstPerson()
     if (asMoved) {
         RenderCamera::update(_gameData);
 
-        _asio->send_packet({3, {_gameData->player.posx, _gameData->player.posy, _gameData->player.posz, _gameData->player.rotx, 0}});
+        _asio->send_packet(3, Move_t{_gameData->player.posx, _gameData->player.posy, _gameData->player.posz, _gameData->player.rotx});
     }
 }

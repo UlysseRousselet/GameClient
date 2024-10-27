@@ -12,14 +12,18 @@
 */
 void Command::OtherPlayerConnection()
 {
+    OtherPlayerConnection_t otherPlayer;
+
+    memcpy(&otherPlayer, asio->answer + sizeof(int), sizeof(OtherPlayerConnection_t));
+
     Player newPlayer;
-    newPlayer.id = asio->answer.args[0];
+    newPlayer.id = otherPlayer.id;
     newPlayer.name = "";
     newPlayer.email = "";
     newPlayer.password = "";
-    newPlayer.posx = asio->answer.args[1];
-    newPlayer.posy = asio->answer.args[2];
-    newPlayer.posz = asio->answer.args[3];
+    newPlayer.posx = otherPlayer.posx;
+    newPlayer.posy = otherPlayer.posy;
+    newPlayer.posz = otherPlayer.posz;
     newPlayer.hp = 100;
 
     gameData->players_online.emplace(newPlayer.id, newPlayer);

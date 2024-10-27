@@ -9,6 +9,11 @@
 
 void Command::OtherPlayerDisconnection()
 {
-    gameData->players_online.erase(asio->answer.args[0]);
+
+    OtherPlayerDisconnection_t otherPlayerDisconnection;
+
+    memcpy(&otherPlayerDisconnection, asio->answer + sizeof(int), sizeof(OtherPlayerDisconnection_t));
+
+    gameData->players_online.erase(otherPlayerDisconnection.id);
     std::cout << "Other player disconnected" << std::endl;
 }

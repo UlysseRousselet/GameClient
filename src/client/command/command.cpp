@@ -19,5 +19,9 @@ Command::Command(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData)
 
 void Command::callCommand()
 {
-    _cmdMap[asio->answer.id]();
+    int id;
+
+    std::memcpy(&id, asio->answer, sizeof(int));
+
+    _cmdMap[id]();
 }

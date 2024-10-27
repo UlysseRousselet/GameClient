@@ -9,9 +9,14 @@
 
 void Command::OtherPlayerMove()
 {
-    gameData->players_online.at(asio->answer.args[0]).posx = asio->answer.args[1];
-    gameData->players_online.at(asio->answer.args[0]).posy = asio->answer.args[2];
-    gameData->players_online.at(asio->answer.args[0]).posz = asio->answer.args[3];
-    gameData->players_online.at(asio->answer.args[0]).rotx = asio->answer.args[4];
+    OtherPlayerMove_t otherPlayerMove;
+    
+    memcpy(&otherPlayerMove, asio->answer + sizeof(int), sizeof(OtherPlayerMove_t));
+
+    gameData->players_online.at(otherPlayerMove.id).posx = otherPlayerMove.posx;
+    gameData->players_online.at(otherPlayerMove.id).posy = otherPlayerMove.posy;
+    gameData->players_online.at(otherPlayerMove.id).posz = otherPlayerMove.posz;
+    gameData->players_online.at(otherPlayerMove.id).rotx = otherPlayerMove.rotx;
+
     std::cout << "Other player moved" << std::endl;
 }
