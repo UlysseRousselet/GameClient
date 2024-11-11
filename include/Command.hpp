@@ -24,6 +24,7 @@ class Command {
     void OtherPlayerConnection();
     void OtherPlayerDisconnection();
     void OtherPlayerMove();
+    void PlayerNotFound();
   private:
     std::map<int, std::function<void()>> _cmdMap;
     std::shared_ptr<Asio> asio;

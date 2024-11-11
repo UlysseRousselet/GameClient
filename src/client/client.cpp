@@ -10,7 +10,7 @@
 Client::Client(std::shared_ptr<Asio> asio, std::shared_ptr<GameData> gameData) : asio(asio), gameData(gameData), command(asio, gameData)
 {
     //first connection
-    asio->send_packet(1, Login_t{"ulysserousselet2004@gmail.com", "Geocraft"});
+    asio->send_packet(1, Login_t{"ulysserousselet2004@gmail.co", "Geocraft"});
 
     std::thread loop_thread(&Client::loop, this);
     loop_thread.detach();
