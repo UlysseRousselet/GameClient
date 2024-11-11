@@ -26,6 +26,7 @@ struct Move_t {
 
 struct NewConnection_t {
     int id;
+    int hp;
     float posx;
     float posy;
     float posz;

@@ -23,7 +23,7 @@ void Command::NewConnection()
     gameData->player.posx = newConnection.posx;
     gameData->player.posy = newConnection.posy;
     gameData->player.posz = newConnection.posz;
-    gameData->player.hp = 100;
+    gameData->player.hp = newConnection.hp;
 
     std::cout << "Player client connected" << std::endl;
 }
