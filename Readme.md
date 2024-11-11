@@ -22,4 +22,4 @@ Server -> Client
 2 id x y z      -> OtherPlayerConnection(); Connexion of an other player on the scene
 3 id            -> OtherPlayerDisconnection(); Disconnexion of a player on the scene
 4 id x y z rotx -> OtherPlayerMove(); Move of a player on the scene
-403             -> Forbiden(); Player not connected
+5               -> PlayerNotFound(); Player not found in database

@@ -8,19 +8,9 @@
 #include <asio.hpp>
 #include <variant>
 
-/*
-** EPITECH PROJECT, 2024
-** server
-** File description:
-** Core
-*/
-
-#include <asio.hpp>
-#include <variant>
-
 struct Login_t {
-    std::string email;
-    std::string password;
+    char email[50];
+    char password[50];
 };
 
 struct Disconnect_t {
@@ -58,4 +48,8 @@ struct OtherPlayerMove_t {
     float posy;
     float posz;
     float rotx;
+};
+
+struct PlayerNotFound_t {
+    int id;
 };
