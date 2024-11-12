@@ -51,6 +51,6 @@ struct OtherPlayerMove_t {
     float rotx;
 };
 
-struct PlayerNotFound_t {
+struct Forbidden_t {
     int id;
 };
