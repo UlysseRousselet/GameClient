@@ -26,4 +26,6 @@ void Command::NewConnection()
     gameData->player.hp = newConnection.hp;
 
     std::cout << "Player client connected" << std::endl;
+
+    gameData->playerState = PlayerState::IN_GAME;
 }

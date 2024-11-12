@@ -15,7 +15,8 @@
     #include <map>
 
 enum struct PlayerState {
-    NOT_IN_MENU,
+    NOT_CONNECTED,
+    IN_GAME,
     IN_MENU
 };
 

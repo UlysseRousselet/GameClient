@@ -19,7 +19,7 @@ EventHandler::~EventHandler()
 
 void EventHandler::eventGestion()
 {
-    if (_gameData->playerState == PlayerState::NOT_IN_MENU)
+    if (_gameData->playerState == PlayerState::IN_GAME)
         this->eventFirstPerson();
 
     if (_gameData->playerState == PlayerState::IN_MENU)
